@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "a:\\Users\\ibi1kinobi\\RazorPagesMovie\\RazorPagesMovie.csproj": {}
+    "A:\\Users\\ibi1kinobi\\RazorPagesMovie\\RazorPagesMovie.csproj": {}
   },
   "projects": {
-    "a:\\Users\\ibi1kinobi\\RazorPagesMovie\\RazorPagesMovie.csproj": {
+    "A:\\Users\\ibi1kinobi\\RazorPagesMovie\\RazorPagesMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "a:\\Users\\ibi1kinobi\\RazorPagesMovie\\RazorPagesMovie.csproj",
+        "projectUniqueName": "A:\\Users\\ibi1kinobi\\RazorPagesMovie\\RazorPagesMovie.csproj",
         "projectName": "RazorPagesMovie",
-        "projectPath": "a:\\Users\\ibi1kinobi\\RazorPagesMovie\\RazorPagesMovie.csproj",
+        "projectPath": "A:\\Users\\ibi1kinobi\\RazorPagesMovie\\RazorPagesMovie.csproj",
         "packagesPath": "C:\\Users\\ibi1kinobi\\.nuget\\packages\\",
-        "outputPath": "a:\\Users\\ibi1kinobi\\RazorPagesMovie\\obj\\",
+        "outputPath": "A:\\Users\\ibi1kinobi\\RazorPagesMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ibi1kinobi\\AppData\\Roaming\\NuGet\\NuGet.Config"
