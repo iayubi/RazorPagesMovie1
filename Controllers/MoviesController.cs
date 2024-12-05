@@ -117,21 +117,22 @@ namespace MVCmovie.Controllers
         }
 
         // GET: Movies/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Index(string id)
         {
-            if (id == null)
+            if (_context.Movie == null)
             {
-                return NotFound();
+                return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
             }
 
-            var movie = await _context.Movie
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (movie == null)
+            var movies = from m in _context.Movie
+                         select m;
+
+            if (!String.IsNullOrEmpty(id))
             {
-                return NotFound();
+                movies = movies.Where(s => s.Title!.ToUpper().Contains(id.ToUpper()));
             }
 
-            return View(movie);
+            return View(await movies.ToListAsync());
         }
 
         // POST: Movies/Delete/5

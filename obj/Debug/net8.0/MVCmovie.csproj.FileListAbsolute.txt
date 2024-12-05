@@ -300,3 +300,4 @@ A:\users\ibi1kinobi\MVCmovie\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Run
 A:\users\ibi1kinobi\MVCmovie\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 A:\users\ibi1kinobi\MVCmovie\obj\Debug\net8.0\MVCmovie.csproj.AssemblyReference.cache
 A:\users\ibi1kinobi\MVCmovie\obj\Debug\net8.0\MVCmovie.csproj.Up2Date
+A:\users\ibi1kinobi\MVCmovie\obj\Debug\net8.0\MVCmovie.sourcelink.json
